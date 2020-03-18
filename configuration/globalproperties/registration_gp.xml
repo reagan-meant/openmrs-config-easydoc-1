@@ -1,0 +1,24 @@
+<config>
+  <globalProperties>
+    <globalProperty>
+      <property>patient.nameValidationRegex</property>
+      <value></value>
+    </globalProperty>
+    <globalProperty>
+      <property>bahmni.primaryIdentifierType</property>
+      <value>069504df-3bff-45f3-b993-faa8f814f457</value>
+    </globalProperty>
+    <globalProperty>
+      <property>bahmni.extraPatientIdentifierTypes</property>
+      <value>8bc3d442-8d2b-4a2e-a773-c8e1d490dc98,f1b418bd-f76f-4242-b894-c45e62ac45f0</value>
+    </globalProperty>
+    <globalProperty>
+      <property>concept.reasonForDeath</property>
+      <value></value>
+    </globalProperty>
+    <globalProperty>
+      <property>mrs.genders</property>
+      <value>{"M":"Homme", "F":"Femme", "O":"Autre"}</value>
+    </globalProperty>
+  </globalProperties>
+</config>

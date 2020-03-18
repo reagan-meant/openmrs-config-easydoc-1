@@ -1,0 +1,2 @@
+Uuid,Void/Retire,Name,Description,Format,Foreign uuid,Searchable,Edit privilege,_order:1000
+29f58586-e331-4da1-a558-3d4210e48664,,impl.email,Email,java.lang.String,,,,
