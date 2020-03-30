@@ -1,0 +1,30 @@
+<config>
+  <globalProperties>
+    <globalProperty>
+      <property>emrapi.sqlSearch.awaitingVitals</property>
+      <value>select distinct concat( ifnull(pn.given_name,'') ,' ', pn.family_name ) as name, 
+          pi.identifier as identifier, 
+          concat("",p.uuid) as uuid, 
+          concat("",v.uuid) as activeVisitUuid, 
+          IF(va.value_reference = "Admitted", "true", "false") as hasBeenAdmitted 
+        from visit v 
+        join person_name pn on v.patient_id = pn.person_id and pn.voided = 0 
+        join patient_identifier pi on v.patient_id = pi.patient_id 
+        join patient_identifier_type pit on pi.identifier_type = pit.patient_identifier_type_id 
+        join global_property gp on gp.property="bahmni.primaryIdentifierType" and gp.property_value=pit.uuid 
+        join person p on p.person_id = v.patient_id
+        join location l on l.uuid = ${visit_location_uuid} and v.location_id = l.location_id 
+        left outer join visit_attribute va on va.visit_id = v.visit_id and va.attribute_type_id = ( 
+          select visit_attribute_type_id from visit_attribute_type where name="Admission Status" 
+        ) and va.voided = 0 
+        where v.date_stopped is null AND v.voided = 0 and v.patient_id not in (
+          select distinct person_id from obs
+          join encounter on encounter.encounter_id = obs.encounter_id
+          join visit on encounter.visit_id = visit.visit_id
+          where visit.date_stopped is null and obs.concept_id = (select concept_id from concept where uuid = "773d36e9-119e-452c-91ee-4ac90245e504")
+          AND DATE(obs.date_created) = CURDATE() 
+        ) order by v.date_started asc
+    </value>
+    </globalProperty>
+  </globalProperties>
+</config>
