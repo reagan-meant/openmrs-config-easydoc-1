@@ -1,2 +1,2 @@
 Uuid,Void/Retire,Identifier type,Name,Description,Prefix,Suffix,First identifier base,Min length,Max length,Base character set,_version:1,_order:6000
-4650b587-07ca-4b54-a0d7-7f067845b612,,069504df-3bff-45f3-b993-faa8f814f457,Identifiant Patient,,ABCD,,2000001000,,14,0123456789,,
+4650b587-07ca-4b54-a0d7-7f067845b612,,069504df-3bff-45f3-b993-faa8f814f457,Identifiant Patient ID Generator,,ABCD,,2000001000,,14,0123456789,,

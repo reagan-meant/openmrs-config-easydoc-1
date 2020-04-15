@@ -1,0 +1,2 @@
+Uuid,Void/Retire,Name,Description,Required,Format,Format description,Validator,Location behavior,Uniqueness behavior
+069504df-3bff-45f3-b993-faa8f814f457,,Identifiant Patient,"4 alphabetic charaters (unique for each hospital in the country) + 2 numeric (for the year) + 8 numeric (incremental starting from 00001000)",TRUE,,,,NOT_USED,
