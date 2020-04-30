@@ -1,2 +1,4 @@
 Uuid,Void/Retire,Name,Description,Required,Format,Format description,Validator,Location behavior,Uniqueness behavior
-069504df-3bff-45f3-b993-faa8f814f457,,Identifiant Patient,"4 alphabetic charaters (unique for each hospital in the country) + 2 numeric (for the year) + 8 numeric (incremental starting from 00001000)",TRUE,,,,NOT_USED,
+069504df-3bff-45f3-b993-faa8f814f457,,Identifiant Patient,4 alphabetic charaters (unique for each hospital in the country) + 2 numeric (for the year) + 8 numeric (incremental starting from 00001000),TRUE,,,,NOT_USED,
+f1b418bd-f76f-4242-b894-c45e62ac45f0,,Numéro CNI,Carte nationale d’Identité. C suivi de 10 chiffres,FALSE,^[Cc][0-9].*,,,NOT_USED,
+8bc3d442-8d2b-4a2e-a773-c8e1d490dc98,,Numéro CMU,Couverture Maladie Universelle. 13 chiffres commençant par 384,FALSE,,,,NOT_USED,
