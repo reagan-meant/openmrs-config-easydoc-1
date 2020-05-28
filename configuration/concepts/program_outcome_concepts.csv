@@ -1,0 +1,8 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:700
+cb0f2002-7712-4526-bc30-345c8a699509,,,Cured of HIV,Cured of HIV,Cured of HIV,Cured of HIV,,,Misc,N/A,,,,,,,,,,,
+bc1bdd23-0264-4831-8b13-1bdbc45f1763,,,Dead,Dead,Dead,Dead,,,Misc,N/A,,,,,,,,,,,
+1ee9e754-d595-49d9-b22c-8808a298ae4b,,,HIV Program Outcomes,HIV Program Outcomes,HIV Program Outcomes,HIV Program Outcomes,,,Misc,N/A,,,cb0f2002-7712-4526-bc30-345c8a699509; bc1bdd23-0264-4831-8b13-1bdbc45f1763,,,,,,,,
+b2e105c5-3b59-4ca5-bf83-b70480eccf38,,,"Treatment Outcome, Cured","Treatment Outcome, Cured","Treatment Outcome, Cured","Treatment Outcome, Cured",,,Misc,N/A,,,,,,,,,,,
+352048b0-72c9-4956-94ae-fa39635996dc,,,Absconded,Absconded,Absconded,Absconded,,,Misc,N/A,,,,,,,,,,,
+eff77ad8-3397-4c94-9648-203b1fbaa0f8,,,MDR - TB Detected,MDR - TB Detected,MDR - TB Detected,MDR - TB Detected,,,Misc,N/A,,,,,,,,,,,
+405e20f2-9b09-4461-bebf-fa0bcfeeac1a,,,TB Program Outcomes,TB Program Outcomes,TB Program Outcomes,TB Program Outcomes,,,Misc,N/A,,,b2e105c5-3b59-4ca5-bf83-b70480eccf38; 352048b0-72c9-4956-94ae-fa39635996dc; eff77ad8-3397-4c94-9648-203b1fbaa0f8; bc1bdd23-0264-4831-8b13-1bdbc45f1763,,,,,,,,

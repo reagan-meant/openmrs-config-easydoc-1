@@ -1,0 +1,10 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:700
+491d6883-3078-47b9-b8d0-872641bd9d27,,,Asymptomatic,Asymptomatic,Asymptomatic,Asymptomatic,,,Misc,N/A,,,,,,,,,,,
+c7684c11-e9a6-4686-8bea-ba1f4e643014,,,Acute Retroviral Infection,Acute Retroviral Infection,Acute Retroviral Infection,Acute Retroviral Infection,,,Misc,N/A,,,,,,,,,,,
+2ab28290-f5ef-4a99-8eac-741799d86c95,,,Clinical Stage 1,Clinical Stage 1,Clinical Stage 1,Clinical Stage 1,,,Misc,N/A,,,,,,,,,,,
+50e08063-fb83-46ab-b008-a8f1d38d6a98,,,Clinical Stage 2,Clinical Stage 2,Clinical Stage 2,Clinical Stage 2,,,Misc,N/A,,,,,,,,,,,
+dc8ccc73-476a-4133-8032-39fa94f75f3a,,,Clinical Stage 3,Clinical Stage 3,Clinical Stage 3,Clinical Stage 3,,,Misc,N/A,,,,,,,,,,,
+7c365f0e-4a33-4bb7-a987-7b08fbc5f9e8,,,Sputum Positive,Sputum Positive,Sputum Positive,Sputum Positive,,,Misc,N/A,,,,,,,,,,,
+9f75f5b9-83fc-4db2-8129-fb648e2d68b2,,,Initial Treatment Phase,Initial Treatment Phase,Initial Treatment Phase,Initial Treatment Phase,,,Misc,N/A,,,,,,,,,,,
+8f1bfe62-3c75-48b7-9010-051f615e2567,,,Continued Treatment Phase,Continued Treatment Phase,Continued Treatment Phase,Continued Treatment Phase,,,Misc,N/A,,,,,,,,,,,
+29e1284c-fc44-4f94-9acf-287e24ebff4e,,,Treatment Discontinued,Treatment Discontinued,Treatment Discontinued,Treatment Discontinued,,,Misc,N/A,,,,,,,,,,,
