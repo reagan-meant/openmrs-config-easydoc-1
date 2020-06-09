@@ -26,5 +26,72 @@
         ) order by v.date_started asc
     </value>
     </globalProperty>
+    <globalProperty>
+      <property>emrapi.sqlSearch.waitingRoom</property>
+      <value>select distinct concat( ifnull(pn.given_name,'') ,' ', pn.family_name ) as name, 
+			pi.identifier as identifier, 
+			concat("",p.uuid) as uuid, 
+			concat("",v.uuid) as activeVisitUuid, 
+			IF(va.value_reference = "Admitted", "true", "false") as hasBeenAdmitted 
+			from visit v 
+			join person_name pn on v.patient_id = pn.person_id and pn.voided = 0 
+			join patient_identifier pi on v.patient_id = pi.patient_id 
+			join patient_identifier_type pit on pi.identifier_type = pit.patient_identifier_type_id 
+			join global_property gp on gp.property="bahmni.primaryIdentifierType" and gp.property_value=pit.uuid 
+			join person p on p.person_id = v.patient_id
+			join location l on l.uuid = ${visit_location_uuid} and v.location_id = l.location_id 
+			left outer join visit_attribute va on va.visit_id = v.visit_id and va.attribute_type_id = ( 
+			select visit_attribute_type_id from visit_attribute_type where name="Admission Status" 
+			) and va.voided = 0 
+			where DATE(v.date_started) = CURDATE() AND DATE(v.date_stopped) IS NULL AND v.voided = 0
+
+			AND v.patient_id IN (
+			SELECT o.person_id from obs o
+			JOIN encounter en ON en.encounter_id = o.encounter_id
+			JOIN visit v ON v.visit_id=en.visit_id
+			where o.obs_id in (
+			SELECT o.obs_group_id FROM obs o WHERE o.concept_id in(
+				SELECT c1.concept_id FROM concept_set c1
+				LEFT JOIN concept_set c2 ON c2.concept_id=c1.concept_set
+				LEFT JOIN concept_set c3 ON c3.concept_id=c2.concept_set
+				LEFT JOIN concept_set c4 ON c4.concept_id=c3.concept_set
+				WHERE (SELECT concept_id FROM openmrs.concept WHERE uuid='773d36e9-119e-452c-91ee-4ac90245e504') in (c2.concept_id,c3.concept_id,c4.concept_id)
+			))
+			AND DATE(v.date_started) = CURDATE() AND DATE(v.date_stopped) IS NULL
+			AND DATE(o.obs_datetime) = CURDATE() AND o.voided = 0
+
+			-- PATIENT WITH VITALS AND HAVE OTHER OBS
+			UNION
+			SELECT v.patient_id from visit v where v.patient_id NOT IN (
+			        SELECT v.patient_id FROM obs o
+					JOIN encounter en ON en.encounter_id = o.encounter_id
+					LEFT JOIN visit v ON v.visit_id = en.visit_id
+					WHERE DATE(v.date_started) = CURDATE() AND DATE(v.date_stopped) IS NULL
+					AND DATE(o.obs_datetime) = CURDATE()
+					AND v.voided = 0 AND o.voided = 0) 
+			        AND DATE(v.date_started) = CURDATE() AND DATE(v.date_stopped) IS NULL
+			    
+			-- PATIENT VISIT OPEN WTH NO OBS TODAY
+			)
+			AND v.patient_id NOT IN (
+			SELECT o.person_id from obs o
+			JOIN encounter en ON en.encounter_id = o.encounter_id
+			JOIN visit v ON v.visit_id=en.visit_id
+			where o.concept_id NOT IN (
+				SELECT c1.concept_id FROM concept_set c1
+				LEFT JOIN concept_set c2 ON c2.concept_id=c1.concept_set
+				LEFT JOIN concept_set c3 ON c3.concept_id=c2.concept_set
+				LEFT JOIN concept_set c4 ON c4.concept_id=c3.concept_set
+				WHERE (SELECT concept_id FROM openmrs.concept WHERE uuid='773d36e9-119e-452c-91ee-4ac90245e504') in (c2.concept_id,c3.concept_id,c4.concept_id)
+			    OR (SELECT concept_id FROM openmrs.concept WHERE uuid='80ef57a5-0d0c-48de-acdd-19e026c890b5') in (c1.concept_set) 
+			    OR (SELECT concept_id FROM openmrs.concept WHERE uuid='2c5bbbbf-f34d-4590-b624-9f17b75b7f00') in (c1.concept_set)
+			) AND o.concept_id NOT IN
+			(SELECT concept_id FROM openmrs.concept WHERE uuid in('773d36e9-119e-452c-91ee-4ac90245e504','80ef57a5-0d0c-48de-acdd-19e026c890b5','2c5bbbbf-f34d-4590-b624-9f17b75b7f00'))
+			AND DATE(v.date_started) = CURDATE() AND DATE(v.date_stopped) IS NULL
+			AND DATE(o.obs_datetime) = CURDATE() AND o.voided = 0
+			)
+			order by v.date_started asc
+      </value>
+    </globalProperty>
   </globalProperties>
 </config>
