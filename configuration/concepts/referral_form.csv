@@ -1,0 +1,11 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1100
+,,,Cambodia_Referred To,Cambodia_Referred To,Referred to,Referred to,,,Question,Text,,,,,,,,,,,
+,,,Cambodia_Referral Notes,Cambodia_Referral Notes,Referral Notes,Referral Notes,,,Question,Text,,,,,,,,,,,
+,,,Cambodia_Height less than 145cm,Cambodia_Height less than 145cm,Height less than 145cm,Height less than 145cm,,,Misc,N/A,,,,,,,,,,,
+,,,Cambodia_Previous C-section,Cambodia_Previous C-section,Previous C-section,Previous C-section,,,Misc,N/A,,,,,,,,,,,
+,,,Cambodia_Danger Signs,Cambodia_Danger Signs,Danger Signs,Danger Signs,,,Misc,N/A,,,,,,,,,,,
+,,,Cambodia_Malposition,Cambodia_Malposition,Malposition,Malposition,,,Misc,N/A,,,,,,,,,,,
+,,,Cambodia_Multiple Pregnancy,Cambodia_Multiple Pregnancy,Multiple Pregnancy,Multiple Pregnancy,,,Misc,N/A,,,,,,,,,,,
+,,,Cambodia_ANC Referral,Cambodia_ANC Referral,ANC Referral,ANC Referral,,,Question,Boolean,,,,,,,,,,,
+,,,Cambodia_ANC Referral Reason,Cambodia_ANC Referral Reason,ANC Referral Reason,ANC Referral Reason,,,Question,Coded,,Cambodia_Height less than 145cm; Cambodia_Previous C-section; Cambodia_Danger Signs; Cambodia_Malposition; Cambodia_Multiple Pregnancy,,,,,,,,,
+,,,Cambodia_Referral Form,Cambodia_Referral Form,Referral,Referral,,,ConvSet,N/A,,,Cambodia_Referred To;  Cambodia_ANC Referral; Cambodia_ANC Referral Reason;Cambodia_Referral Notes;,,,,,,,,
