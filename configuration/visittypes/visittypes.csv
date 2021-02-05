@@ -1,0 +1,14 @@
+Uuid,Void/Retire,Name,Description,_version:1
+ddc9f206-5d9c-464c-a0c5-5f7e8d6f843c,,Family practice,Family practice Visit,
+ba794763-dfac-4d11-a9b8-f97040439e87,,Internal medicine,Internal medicine Visit,
+7ebd91c2-aa60-4f96-89b2-8bb1d482f35b,,Pediatrics,Pediatrics Visit,
+322743d4-8280-4d6c-8786-6af57518f614,,Obstetrics/gynecology,Obstetrics/gynecology Visit,
+a92ac41d-4efc-4f76-9497-a7dfc1362ba9,,Cardiology,Cardiology Visit,
+a77a6e37-101a-45f7-906b-cb1da31c18a5,,Dermatology,Dermatology Visit,
+84dd6a91-fcc9-40c0-aee9-ecd5d873fb74,,Orthopedics,Orthopedics Visit,
+6fc7a70e-d801-442a-b89c-559236beb9b1,"",General surgery,General surgery Visit,""
+a915714a-fa52-48b0-a13c-7c3377beeac7,"",Otolaryngology,Otolaryngology Visit,""
+fec44dae-05ff-498a-aba7-ab5501c827b8,"",Urology,Urology Visit,""
+6bfd16b3-86dd-4a6f-af23-464367de900c,"",Ophthalmology,Ophthalmology Visit,""
+a00a7d38-5f24-4c6a-87a4-159988b08556,"",Dental,Dental Visit,""
+"",True,LAB VISIT,"",""
