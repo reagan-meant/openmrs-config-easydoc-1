@@ -1,0 +1,3 @@
+Uuid,Void/Retire,Name,Description,Java class name,Parent,Concept Classes,_order:100
+,True,Radiology Order,,,,,
+5338a5b1-2cbc-4081-9a9b-9e479e2acaad,,Radiology Order,An order for radiology,org.openmrs.Order,,Radiology,
