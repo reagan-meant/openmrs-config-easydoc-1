@@ -1,0 +1,11 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1100
+48515847-9ae7-4d0a-84c0-81c33ad30912,,,Referred To,Referred To,Referred to,Referred to,,,Question,Text,,,,,,,,,,,
+e632f3ba-9c0b-4eb6-9961-fc1ab09aceaf,,,Referral Notes,Referral Notes,Referral Notes,Referral Notes,,,Question,Text,,,,,,,,,,,
+c44a7fcd-f392-496d-adac-880865c5b0bd,,,Height less than 145cm,Height less than 145cm,Height less than 145cm,Height less than 145cm,,,Misc,N/A,,,,,,,,,,,
+21e5711c-a830-42d0-9511-36e2a41c57b8,,,Previous C-section,Previous C-section,Previous C-section,Previous C-section,,,Misc,N/A,,,,,,,,,,,
+4649b4b8-601d-40c7-931c-458095ef912d,,,Danger Signs,Danger Signs,Danger Signs,Danger Signs,,,Misc,N/A,,,,,,,,,,,
+b4150d3e-c5d9-4ca4-a970-ad43acac825f,,,Malposition,Malposition,Malposition,Malposition,,,Misc,N/A,,,,,,,,,,,
+12514994-e951-46b9-bb9b-972ad147d9fb,,,Multiple Pregnancy,Multiple Pregnancy,Multiple Pregnancy,Multiple Pregnancy,,,Misc,N/A,,,,,,,,,,,
+ed8ee5a7-2aca-46e7-b91e-8950b5ce6d55,,,ANC Referral,ANC Referral,ANC Referral,ANC Referral,,,Question,Boolean,,,,,,,,,,,
+7efdf9cf-ce9f-49b1-a4a2-6c50d469f301,,,ANC Referral Reason,ANC Referral Reason,ANC Referral Reason,ANC Referral Reason,,,Question,Coded,,Height less than 145cm; Previous C-section; Danger Signs; Malposition; Multiple Pregnancy,,,,,,,,,
+bdeda835-b4d5-4f4a-9c0d-a61fbfbc13ca,,,Referral Form,Referral Form,Referral,Referral,,,ConvSet,N/A,,,Referred To;  ANC Referral; ANC Referral Reason;Referral Notes;,,,,,,,,

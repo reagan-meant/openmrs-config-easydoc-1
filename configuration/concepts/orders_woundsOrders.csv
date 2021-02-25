@@ -1,0 +1,4 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1000
+10bd95da-67ea-4ee4-abce-10a8daeb003f,,,PLA1001 -Plaie delabrante / contuse,PLA1001 -Plaie delabrante / contuse,Plaie delabrante / contuse,Plaie delabrante / contuse,,,Wound,Text,,,,,,,,,,,
+ffa1910e-9f0e-4d37-b5f7-c8a37e0551f7,,,PLA1002 -Suture plaie etendue,PLA1002 -Suture plaie etendue,Suture plaie etendue,Suture plaie etendue,,,Wound,Text,,,,,,,,,,,
+becf2545-4333-4b8c-8585-1ccb34616c1a,,,PLA1003 -Suture plaie superficielle,PLA1003 -Suture plaie superficielle,Suture plaie superficielle,Suture plaie superficielle,,,Wound,Text,,,,,,,,,,,

@@ -1,0 +1,9 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:900
+6b3a19f3-3920-4f1a-93e1-f8548502499a,,,LAH1001 - Fine Needle Aspirate,LAH1001 - La biopsie par aspiration à l'aiguille fine,BAAF,BAAF,,,LabTest,Text,,,,,,,,,,,
+2102a4be-3938-4f75-b69f-35c7b528d657,,,"LAH1002 - Biopsy ","LAH1002 - Biopsie ","Biopsy ","Biopsie ",,,LabTest,Text,,,,,,,,,,,
+5e0afd88-3d7f-402a-8905-be707b626963,,,LAH1003 - Biopsy + Colposcopy,LAH1003 - Biopsie + Colposcopie,Biopsy + Colposcopy,Biopsie + Colposcopie,,,LabTest,Text,,,,,,,,,,,
+cf03cfb1-9a41-45e9-9967-8202f12cb843,,,LAH1004 - Cytology (frozen sop),LAH1004 - Cytologie (frozen sop),Cytology (frozen sop),Cytologie (frozen sop),,,LabTest,Text,,,,,,,,,,,
+5783c597-98ff-4ada-a8f5-e04b03199aa1,,,LAH1005 - Pap Test,LAH1005 - Pap Test,Pap Smear,Frottis Pap,,,LabTest,Text,,,,,,,,,,,
+9d868dfe-f193-4f90-a1c5-67401d35dbd0,,,LAH1006 - Cytological examination,LAH1006 - Recherche de Cellules,Cytological examination,Recherche de Cellules,,,LabTest,Text,,,,,,,,,,,
+f976b5b4-d8a3-4011-b707-4de08d0a6313,,,Histopathology,Histopathologie,Histopathology,Histopathologie,,,LabSet,N/A,,,LAH1001 - Fine Needle Aspirate;LAH1002 - Biopsy;LAH1003 - Biopsy + Colposcopy;LAH1004 - Cytology (frozen sop);LAH1005 - Pap Test;LAH1006 - Cytological examination,,,,,,,,
+bbd79e82-7d0b-404b-a6e1-c258951098c8,,,Histopathology Department,Histopathologie Department,Histopathology Department,Histopathologie Department,,,Department,N/A,,,LAH1001 - Fine Needle Aspirate;LAH1002 - Biopsy;LAH1003 - Biopsy + Colposcopy;LAH1004 - Cytology (frozen sop);LAH1005 - Pap Test;LAH1006 - Cytological examination,,,,,,,,
