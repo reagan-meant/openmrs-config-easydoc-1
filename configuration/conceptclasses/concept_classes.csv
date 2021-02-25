@@ -1,0 +1,21 @@
+Uuid,Void/Retire,Name,Description
+fb6e9000-d7fa-4aa6-8c39-4935d7a36e45,,Obstetrics and Gynecology,Obstetrics and Gynecology orders
+0502d529-4e7d-4292-8c9f-68ccf7b93edb,,Ophtalmology,Ophtalmology Orders
+c58e05ec-a7c7-4cb9-9050-e2f8d7d2c506,,Surgery,Surgery orders
+1fe6e639-d434-4e2a-bcb3-b09733e20ab1,,Urology,Urology orders
+0d6f87dd-3773-42f2-affd-b143ecea00dc,,Wound Dressing,Wound Dressing orders
+b5c7ee53-5933-47ca-8f86-855a6e5fa0ed,,Wound,Wound orders
+1fd966b6-cd3e-47d5-873a-0f34da1f8224,,Orthopedics and Traumatology,Orthopedics and Traumatology Orders
+bfd02088-04c6-4abe-a5be-b5ee437c8ba9,,ENT,ENT orders
+bfaba740-4c32-43c9-b64c-3e2c0c08cdf0,,Material,Material orders
+4bd15bfb-bffd-41fb-ac90-3dcc54e21748,,Wound,Wound orders
+74812273-fe63-404a-8e0d-4e38955532af,,Maxillofacial,Maxillofacial orders
+0f0a69fc-5c8e-4bf8-b9ad-ed87559bb55c,,Product,Product
+,True,Radiology,
+6c691025-06ca-4b7f-bc4a-3f7b579e3c45,,Radiology,Radiology
+,True,Drug,
+bb022c8b-8012-48e8-ab16-74256f6c251c,,Drug,Drug
+,True,LabTest,
+f9dcedec-4c67-4846-bdad-24eee392e39f,,LabTest,Lab Test
+,True,LabSet,
+7da64417-eb67-466b-98ff-63bf72b7ceeb,,LabSet,Panels
