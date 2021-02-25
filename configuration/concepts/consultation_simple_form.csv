@@ -1,0 +1,6 @@
+Uuid,Same as mappings,Void/Retire,Fully specified name:en,Short name:en,Fully specified name:fr,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1250
+aed4e2fe-f4a7-46b1-9f92-7d593fa53143,,,Chief Complaint (Free text),Chief Complaint,Motif de consultation,Motif de consultation,,,Misc,Text,,,,,,,,,,,
+c3998f6b-3f10-11e4-adec-0800271c1b75,,,History Notes,Medical History,Antécédents,Antécédents,,,Misc,Text,,,,,,,,,,,
+ebb4d563-1878-49b3-8041-ebda01f7b738,,,History of disease,History of disease,Histoire de la maladie,Histoire de la maladie,,,Misc,Text,,,,,,,,,,,
+d3689124-6759-4a9d-927e-1b4b61fa3493,,,Physical examination,Physical examination,Examen physique,Examen physique,,,Misc,Text,,,,,,,,,,,
+157d7e4d-a56f-49cc-97b1-8d4a226b494f,,,Consultation (simple),Consultation (simple),Consultation (simple),Consultation (simple),,,ConvSet,N/A,,,aed4e2fe-f4a7-46b1-9f92-7d593fa53143;c3998f6b-3f10-11e4-adec-0800271c1b75;ebb4d563-1878-49b3-8041-ebda01f7b738;d3689124-6759-4a9d-927e-1b4b61fa3493,,,,,,,,

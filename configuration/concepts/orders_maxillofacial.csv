@@ -1,0 +1,12 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:km,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1000
+3deffcfb-1f69-4e1c-9c24-d7f50ebe57dc,,,MAF1001 - Biospsie Cyst mandibular,MAF1001 - Biospsie Cyst mandibular,Biospsie Cyst mandibular,Biospsie Cyst mandibular,,,Maxillofacial,Text,,,,,,,,,,,
+8a2085fd-60e2-426b-9e8d-8c6e792b28f6,,,MAF1002 - Drainage Kyste de la Mâchoire,MAF1002 - Drainage Kyste de la Mâchoire,Drainage Kyste de la Mâchoire,Drainage Kyste de la Mâchoire,,,Maxillofacial,Text,,,,,,,,,,,
+4a7f7bd2-8ded-43c1-805b-c462ace35cd8,,,MAF1003 - Exérèse d'une partie de la Mâchoire,MAF1003 - Exérèse d'une partie de la Mâchoire,Exérèse d'une partie de la Mâchoire,Exérèse d'une partie de la Mâchoire,,,Maxillofacial,Text,,,,,,,,,,,
+aeaff503-47d1-43ed-b6d1-e4c75bae4870,,,MAF1004 - Exérèse Tumeur de la face,MAF1004 - Exérèse Tumeur de la face,Exérèse Tumeur de la face,Exérèse Tumeur de la face,,,Maxillofacial,Text,,,,,,,,,,,
+ee4a414b-5bf2-4845-b471-23c5b6bac5da,,,MAF1005 - Fracture Vomer,MAF1005 - Fracture Vomer,Fracture Vomer,Fracture Vomer,,,Maxillofacial,Text,,,,,,,,,,,
+4814c8df-7f11-4939-8353-d024b8241da6,,,MAF1006 - Greffe de la Mâchoire,MAF1006 - Greffe de la Mâchoire,Greffe de la Mâchoire,Greffe de la Mâchoire,,,Maxillofacial,Text,,,,,,,,,,,
+8de45f79-616f-4ba1-b270-8e16b48f1449,,,MAF1007 - Reconstruction Fente Labiale,MAF1007 - Reconstruction Fente Labiale,Reconstruction Fente Labiale,Reconstruction Fente Labiale,,,Maxillofacial,Text,,,,,,,,,,,
+84713b27-aecc-49db-b711-f65703c6d06e,,,MAF1008 - Reconstruction Fente Palatine,MAF1008 - Reconstruction Fente Palatine,Reconstruction Fente Palatine,Reconstruction Fente Palatine,,,Maxillofacial,Text,,,,,,,,,,,
+88fe15df-64ff-46ed-968f-69e2c6e83893,,,MAF1009 - Reconstruction Tongue,MAF1009 - Reconstruction Tongue,Reconstruction Tongue,Reconstruction Tongue,,,Maxillofacial,Text,,,,,,,,,,,
+e8744790-4f23-4e2e-95d3-4320e62f9ffa,,,MAF1010 - Résection Cyst Facial,MAF1010 - Résection Cyst Facial,Résection Cyst Facial,Résection Cyst Facial,,,Maxillofacial,Text,,,,,,,,,,,
+b2b08484-0375-40e1-ad00-793b5d81965e,,,MAF1011 - Submandibular glande Résection,MAF1011 - Submandibular glande Résection,Submandibular glande Résection,Submandibular glande Résection,,,Maxillofacial,Text,,,,,,,,,,,
