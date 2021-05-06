@@ -2,4 +2,3 @@ Uuid,Void/Retire,Name,Description,_version:1
 5e27343d-5c36-4da2-ad5b-1f3264bb33ea,,Urgences,Emergency patient visit,
 326ff5e0-ca9a-4e52-91bf-6edfd05dbd50,,Ambulatoire,Visit for patients coming for OPD,
 ad462d87-b84b-4ba0-ac8b-8a3e952e65aa,,Hospitalisation,Visit for patients been admitted,
-,True,LAB VISIT,,
