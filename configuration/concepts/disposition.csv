@@ -6,3 +6,4 @@ a821d9a6-5486-40f9-b738-9180bff73d83,,org.openmrs.module.emrapi:UNDO_DISCHARGE,C
 d664e628-2957-4b02-8a25-28a8cb10fee5,,org.openmrs.module.emrapi:Disposition,Disposition,,Disposition,,,,Question,Coded,Refer Patient;Admit Patient;Discharge Patient;Cancel Patient Discharge,,,
 a6ea10ed-ede7-43e2-83e8-c6be5ca26d76,,org.openmrs.module.emrapi:DispositionNote,Disposition Note,,Disposition Note,,,,Misc,Text,,,,
 caa44025-9e30-4feb-8d2a-c58c91f36bfc,,org.openmrs.module.emrapi:Disposition Concept Set,Disposition Set,,Disposition Set,,,,Misc,N/A,,Disposition;Disposition Note,,
+c238289b-8533-485e-8d9e-665f6f01f210,,,Adt Notes,,Adt Notes,,,,Misc,Text,,,,
