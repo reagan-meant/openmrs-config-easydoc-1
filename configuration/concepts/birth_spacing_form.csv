@@ -9,7 +9,7 @@ dc3f7e97-f40a-4bc4-90ae-5f19b1b30218,,,Cambodia_Condoms,Cambodia_Condoms,Cambodi
 74b5549c-2d33-4391-9cb7-9380d12e39cb,,,Femidoms,Femidoms,Femidoms,Femidoms,,,Misc,N/A,,,,,Units,,,0,,,
 ae1af236-2160-4202-8a46-ce969fbed870,,,IUD,IUD,Intra-Uterus Devices - IUD,Intra-Uterus Devices - IUD,,,Misc,N/A,,,,,Units,,,0,,,
 111b6804-ffc3-4e57-af8a-bf332c5a5199,,,Implants,Implants,Implants,Implants,,,Misc,N/A,,,,,Units,,,0,,,
-ee36cfde-3c53-4d66-8539-62b07a9daa67,,,Stopped Contraception,Stopped Contraception,Stopped using contraception this month?,Stopped using contraception this month?,,,Question,Boolean,,,,,,,,,,,
+ee36cfde-3c53-4d66-8539-62b07a9daa67,,,Stopped Contraception,Stopped Contraception,Stopped using contraception this month?,Stopped using contraception this month?,,,Question,Coded,,bf885a9d-9f98-4990-8c20-ac4ace816bfe;2120763c-6c49-4133-b532-1e931ab4858a,,,,,,,,,
 50ca3790-602e-4b11-8a15-e27d529be396,,,Vasectomy,Vasectomy,Vasectomy (husband),Vasectomy (husband),,,Misc,N/A,,,,,,,,,,,
 7766e4a1-5a5e-4fa9-b98e-40c52fc6a8d5,,,Tubectomy,Tubectomy,Tubectomy,Tubectomy,,,Misc,N/A,,,,,,,,,,,
 e38b06ef-4d5e-4e8f-8135-7b35304d5cda,,,Contraceptives Past,Contraceptives Past,Contraceptives Past,Contraceptives Past,,,Question,Coded,,COC; POP; Injections; Cambodia_Condoms; Femidoms; IUD; Implants;,,,,,,,,,

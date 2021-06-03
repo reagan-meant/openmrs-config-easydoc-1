@@ -6,6 +6,6 @@ c44a7fcd-f392-496d-adac-880865c5b0bd,,,Height less than 145cm,Height less than 1
 4649b4b8-601d-40c7-931c-458095ef912d,,,Danger Signs,Danger Signs,Danger Signs,Danger Signs,,,Misc,N/A,,,,,,,,,,,
 b4150d3e-c5d9-4ca4-a970-ad43acac825f,,,Malposition,Malposition,Malposition,Malposition,,,Misc,N/A,,,,,,,,,,,
 12514994-e951-46b9-bb9b-972ad147d9fb,,,Multiple Pregnancy,Multiple Pregnancy,Multiple Pregnancy,Multiple Pregnancy,,,Misc,N/A,,,,,,,,,,,
-ed8ee5a7-2aca-46e7-b91e-8950b5ce6d55,,,ANC Referral,ANC Referral,ANC Referral,ANC Referral,,,Question,Boolean,,,,,,,,,,,
+ed8ee5a7-2aca-46e7-b91e-8950b5ce6d55,,,ANC Referral,ANC Referral,ANC Referral,ANC Referral,,,Question,Coded,,bf885a9d-9f98-4990-8c20-ac4ace816bfe;2120763c-6c49-4133-b532-1e931ab4858a,,,,,,,,,
 7efdf9cf-ce9f-49b1-a4a2-6c50d469f301,,,ANC Referral Reason,ANC Referral Reason,ANC Referral Reason,ANC Referral Reason,,,Question,Coded,,Height less than 145cm; Previous C-section; Danger Signs; Malposition; Multiple Pregnancy,,,,,,,,,
 bdeda835-b4d5-4f4a-9c0d-a61fbfbc13ca,,,Referral Form,Referral Form,Referral,Referral,,,ConvSet,N/A,,,Referred To;  ANC Referral; ANC Referral Reason;Referral Notes;,,,,,,,,

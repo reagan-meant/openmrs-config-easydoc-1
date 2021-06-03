@@ -11,7 +11,7 @@ bce733b3-9450-4591-bbde-ceb8397d331e,,,Cough With Sputum More Than 3 Weeks,Cough
 a03630e1-97dd-47bc-851a-b20da22d6f40,,,Vaginal Bleeding,Vaginal Bleeding,vaginal bleeding,vaginal bleeding,,,Misc,N/A,,,,,,,,,,,
 8664b0aa-f5f5-45d1-941a-013956917a43,,,ANC_Symptoms,ANC_Symptoms,Symptoms,Symptoms,,,Question,Coded,,Vaginal Bleeding; Fever; Cough With Sputum More Than 3 Weeks; Signs of Anaemia,,,,,,,,,
 ee750f11-b9a8-4a65-bfde-8b193e7214d3,,,Fetal Pulse,Fetal Pulse,Fetal Pulse,Fetal Pulse,,,Question,Numeric,,,,,,90,150,0,500,,
-b35b4353-7b04-4448-888a-f7ee1b05d6d5,,,Fetal Pulse Abnormal,Fetal Pulse Abnormal,Abnormal Fetal Pulse,Abnormal Fetal Pulse,,,Abnormal,Boolean,,,,,,,,,,,
+b35b4353-7b04-4448-888a-f7ee1b05d6d5,,,Fetal Pulse Abnormal,Fetal Pulse Abnormal,Abnormal Fetal Pulse,Abnormal Fetal Pulse,,,Abnormal,Coded,,bf885a9d-9f98-4990-8c20-ac4ace816bfe;2120763c-6c49-4133-b532-1e931ab4858a,,,,,,,,,
 5c56c5e7-2536-43fc-bc94-6b26d0024162,,,Fetal Pulse Data,Fetal Pulse Data,Fetal Pulse,Fetal Pulse,,,Concept Details,N/A,,,Fetal Pulse; Fetal Pulse Abnormal,,,,,,,,
 cb5ea1de-4b01-446e-8947-e1e4ff50f68e,,,Vital Signs ANC Set,Vital Signs ANC Set,Vital Signs,Vital Signs,,,ConvSet,N/A,,,Blood Pressure Set; Temperature Data; Pulse; Fetal Pulse;,,,,,,,,
 91c96bd3-d516-402d-9ec1-513280373f06,,,Stomach_Diameter,Stomach_Diameter,Stomach Diameter (cm),Stomach Diameter (cm),,,Question,Numeric,,,,TRUE,,,,0,,,
