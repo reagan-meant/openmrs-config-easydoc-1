@@ -1,0 +1,4 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1100
+7e783dcb-44b7-3002-3c74-dd299f8d7656,,,Medical treatment started,Traitement médical démarré,Medical treatment started,Traitement médical démarré,,,Question,Boolean,,,,,,,,,,,
+a9480118-5867-0354-347b-bd7faaf32ea4,,,Home assistance requested,Assistance à domicile souhaitée,Home assistance requested,Assistance à domicile souhaitée,,,Question,Boolean,,,,,,,,,,,
+a6cbb896-f32a-4aec-b08d-8e782494b752,,,Follow Up Form,Suivi Médical Téléphonique,Follow Up Form,Suivi Médical Téléphonique,,,ConvSet,N/A,,,Medical treatment started; Home assistance requested; Comments,,,,,,,,
