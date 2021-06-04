@@ -4,7 +4,7 @@
   <artifactId>openmrs-config-easydoc</artifactId>
   <name>OpenMRS config - EasyDoc</name>
   <description>OpenMRS configuration for the EasyDoc Bahmni distribution</description>
-  <version>1.0.0</version>
+  <version>1.1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <developers>
